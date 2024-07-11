@@ -3,10 +3,8 @@
 	"FileReferences": {
 		"Moc": "Amadeus.moc3",
 		"Textures": [
-			"Amadeus.1024/texture_00.png"
+			"Amadeus.2048/texture_00.png"
 		],
-		"Physics": "Amadeus.physics3.json",
-		"DisplayInfo": "Amadeus.cdi3.json",
 		"Expressions": {
 			"": [
 				{
