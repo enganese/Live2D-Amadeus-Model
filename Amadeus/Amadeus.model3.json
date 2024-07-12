@@ -5,89 +5,21 @@
 		"Textures": [
 			"Amadeus.2048/texture_00.png"
 		],
-		"Expressions": {
-			"": [
-				{
-					"File": "expressions/f01.exp3.json"
-				}
+		"Physics": "Amadeus.physics3.json",
+		"DisplayInfo": "Amadeus.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeROpen"
 			]
 		},
-		"Motions": {
-			"": [
-				{
-					"File": "motions/anger_loop.motion3.json"
-				},
-				{
-					"File": "motions/loop.motion3.json"
-				},
-				{
-					"File": "motions/bashful.motion3.json"
-				},
-				{
-					"File": "motions/bashful_loop.motion3.json"
-				},
-				{
-					"File": "motions/bashful2.motion3.json"
-				},
-				{
-					"File": "motions/bashful2_loop.motion3.json"
-				},
-				{
-					"File": "motions/blues.motion3.json"
-				},
-				{
-					"File": "motions/blues_loop.motion3.json"
-				},
-				{
-					"File": "motions/cutin.motion3.json"
-				},
-				{
-					"File": "motions/ease.motion3.json"
-				},
-				{
-					"File": "motions/ease_loop.motion3.json"
-				},
-				{
-					"File": "motions/elapse.motion3.json"
-				},
-				{
-					"File": "motions/exciting.motion3.json"
-				},
-				{
-					"File": "motions/exciting_loop.motion3.json"
-				},
-				{
-					"File": "motions/joy.motion3.json"
-				},
-				{
-					"File": "motions/joy_loop.motion3.json"
-				},
-				{
-					"File": "motions/loop.motion3.json"
-				},
-				{
-					"File": "motions/serious.motion3.json"
-				},
-				{
-					"File": "motions/serious_loop.motion3.json"
-				},
-				{
-					"File": "motions/surprise.motion3.json"
-				},
-				{
-					"File": "motions/surprise_loop.motion3.json"
-				},
-				{
-					"File": "motions/tap1.motion3.json"
-				},
-				{
-					"File": "motions/tap2.motion3.json"
-				},
-				{
-					"File": "motions/tap3.motion3.json"
-				}
-			]
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
 		}
-	},
-	"Groups": []
+	]
 }
